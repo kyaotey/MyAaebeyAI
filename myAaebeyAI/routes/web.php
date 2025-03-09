@@ -6,6 +6,10 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return \view('welcome');
 })->name('home');
+Route::get('/register', function () {
+    return view('registration');
+})->name('register');
+
 
 
 Route::get('/login', [AuthManager::class, 'login'])->name('login');

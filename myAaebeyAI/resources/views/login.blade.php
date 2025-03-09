@@ -54,16 +54,19 @@
             <div class="text-center mt-4">
                 <h5>Login with another account</h5>
                 <div class="d-flex justify-content-center">
-                    <img src="{{ asset('images/1.png') }}" class="mx-2" alt="Social 1" width="40">
                     <img src="{{ asset('images/2.png') }}" class="mx-2" alt="Social 2" width="40">
-                    <img src="{{ asset('images/3.png') }}" class="mx-2" alt="Social 3" width="40">
-                    <img src="{{ asset('images/4.png') }}" class="mx-2" alt="Social 4" width="40">
+                    <img src="{{ asset('images/7.png') }}" class="mx-2" alt="Social 3" width="40">
+                    <img src="{{ asset('images/4.png') }}" class="mx-2" alt="Social 1" width="40">
+
+                    <img src="{{ asset('images/1.png') }}" class="mx-2" alt="Social 1" width="40">
+
                 </div>
             </div>
 
             {{-- Sign Up Link --}}
             <div class="text-center mt-3">
-                <a href="#">Not a member yet? <strong>Sign up free</strong></a>
+                <a href="{{ route('register') }}">Not a member yet? <strong>Sign up free</strong></a>
+
             </div>
         </div>
     </div>
